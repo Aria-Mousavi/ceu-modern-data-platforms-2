@@ -289,7 +289,7 @@ Get every review for listing _3176_ (in Snowflake):
 SELECT * FROM "AIRBNB"."DEV"."FCT_REVIEWS" WHERE listing_id=3176;
 ```
 
-Add a new record to the table (in Snowflake):
+Add a new record to the _RAW_ table (in Snowflake):
 ```sql
 INSERT INTO "AIRBNB"."RAW"."RAW_REVIEWS"
 VALUES (3176, CURRENT_TIMESTAMP(), 'Zoltan', 'excellent stay!', 'positive');
