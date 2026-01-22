@@ -215,4 +215,9 @@ target/
 dbt_packages/
 dbt_internal_packages/
 package-lock.yml
-profiles.yml.DS_Store
+.DS_Store
+profiles.yml
+airbnb/profiles.yml
+.DS_Store
+profiles.yml
+airbnb/profiles.yml
